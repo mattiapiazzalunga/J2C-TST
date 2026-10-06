@@ -1,0 +1,2 @@
+# Install only after requirements.txt, using --no-build-isolation.
+flash-attn>=2.7,<3

@@ -1,0 +1,21 @@
+# BELA is archived and uses a legacy stack. Install this file in a dedicated
+# Python 3.8/3.9 environment, then install the cloned BELA repository editable.
+# PyTorch Lightning 1.7 imports pkg_resources; keep the last pre-81 release.
+setuptools==80.9.0
+# torch.utils.tensorboard in PyTorch 1.13 imports six without declaring it.
+six==1.16.0
+torch==1.13.1
+numpy>=1.23,<2
+fairscale==0.4.13
+hydra-core==1.2.0
+hydra-submitit-launcher==1.2.0
+pytorch-lightning==1.7.7
+torchmetrics==0.9.3
+transformers==4.24.0
+sentencepiece==0.1.97
+h5py>=3.7,<4
+protobuf==3.20.*
+ujson>=5.7,<6
+tqdm>=4.64,<5
+pyyaml>=6,<7
+faiss-gpu==1.7.2; platform_system == "Linux"

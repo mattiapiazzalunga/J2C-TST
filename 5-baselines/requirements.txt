@@ -1,0 +1,12 @@
+torch>=2.2,<3
+transformers>=4.56,<5
+datasets>=3.2,<5
+accelerate>=1.2,<2
+peft>=0.19,<0.20
+bitsandbytes>=0.45,<1; platform_system != "Windows"
+sentencepiece>=0.2,<1
+tqdm>=4.66,<5
+jupyter>=1.1,<2
+packaging>=24,<27
+psutil>=5.9,<8
+ninja>=1.11,<2

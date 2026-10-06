@@ -1,0 +1,14 @@
+torch>=2.2,<3
+numpy>=1.26,<3
+transformers>=4.56,<5
+datasets>=3.2,<5
+accelerate>=1.2,<2
+bert-score>=0.3.13,<1
+sacrebleu>=2.4,<3
+emoji>=2.14,<3
+sentencepiece>=0.2,<1
+tqdm>=4.66,<5
+jupyter>=1.1,<2
+packaging>=24,<27
+psutil>=5.9,<8
+ninja>=1.11,<2

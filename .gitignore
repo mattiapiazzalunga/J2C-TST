@@ -1,0 +1,41 @@
+# Python e Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.venv*/
+
+# Cache e stato locale
+.cache/
+state/
+*.sqlite3
+*.part
+
+# Training e modelli
+outputs/
+output/
+checkpoint-*/
+classifier/
+classifiers/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Risultati rigenerabili
+predictions/
+results/
+artifacts/
+logs/
+*.log
+
+# Dipendenze e asset esterni pesanti
+external/
+BELA-models/
+models/
+
+# Editor e sistema operativo
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
